@@ -19,7 +19,7 @@
 
 <body>
 
-    <form form name="myForm" action="https://www.google.com/" onsubmit="return validateForm()" method="get">
+    <form form name="myForm" action="" onsubmit="return validateForm(),insert()" method="get">
         <div class="form-row">
             <div class="col">
                 <label for="first_name" >Firt name</label>
@@ -53,7 +53,7 @@
         <input type="reset" class="btn btn-warning offset-3" name="rest">
     </form>
     <div id="demo"></div>
-<table class="table tab-content table-hover">
+<table class="table tab-content table-hover" id="table" style="width: 100%;">
     <thead>
         <tr>
             <th>Nom</th>
