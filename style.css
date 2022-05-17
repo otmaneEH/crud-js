@@ -1,4 +1,4 @@
-*{
+* {
     padding: 5px;
 }
 
@@ -7,7 +7,8 @@
         margin: 10px;
         height: 800px;
     }
-  }
+}
+
 @media only screen and (min-width: 992px) {
 
     body {
@@ -15,4 +16,17 @@
         margin-left: 100px;
         height: 1200px;
     }
+}
+td{
+    width: 400px;
+    text-align: center;
+}
+
+table th {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 50% !important;
 }
