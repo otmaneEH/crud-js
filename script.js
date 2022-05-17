@@ -1,7 +1,9 @@
 function validateForm() {
-  let x = document.getElementById("firstName").value;
-  if (x == "") {
-    alert("Name must be filled out");
-    return false;
-  }
+    let name =document.getElementById("firstName").value;
+    if(name==''){
+        alert("u have to entre ur name");
+
+
+        return false
+    }
 }
