@@ -20,15 +20,15 @@ if(firstName==''){
 }
 function insert() //function for insert
 {
-    document.getElementById("table").style.display="block";
+    // document.getElementById("table").style.display="block";
     
     var table = document.getElementById("table");
     var row = table.insertRow(-1);
-    var date = row.insertCell(0);
-    var desc = row.insertCell(1);
+    var firstname = row.insertCell(0);
+    var lastname = row.insertCell(1);
     // var amt = row.insertCell(2);
-    date.innerHTML = document.getElementById("firstName").value;
-    desc.innerHTML = document.getElementById("lastNmae").value;
+    firstname.innerHTML = document.getElementById("firstName").value;
+    lastname.innerHTML = document.getElementById("lastNmae").value;
     // amt.innerHTML = document.getElementById("amount").value;
     
     return false;
